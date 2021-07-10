@@ -7,7 +7,7 @@ fs.readFile("template.svg", "utf-8", (error, data) => {
     return;
   }
   
-  data = data.replace('{name}', "")
+  data = data.replace('{name}', 'uiandwe')
 //   data = data.replace('{degC}', degC)
 //   data = data.replace('{weatherEmoji}', emojis[icon])
 //   data = data.replace('{psTime}', psTime)
