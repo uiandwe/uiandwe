@@ -393,7 +393,7 @@
 
   <!-- Have a great... -->
   <g transform="translate(10, 288)" class="msg-6">
-    <rect width="300" height="42" rx="18.0355" class="bubble" />
+    <rect width="250" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27"><a xlink:href="https://uiandwe.github.io/">https://uiandwe.github.io</a> </text>
   </g>
 </svg>
