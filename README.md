@@ -1,1 +1,1 @@
-[![](https://github.com/uiandwe/uiandwe/blob/master/chat.svg)](https://uiandwe.github.io/)
+[![](https://github.com/uiandwe/uiandwe/blob/main/chat.svg)](https://uiandwe.github.io/)
