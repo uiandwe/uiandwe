@@ -319,7 +319,7 @@
 
   <!-- Work ... -->
   <g transform="translate(10, 120)" class="msg-3">
-    <rect width="485" height="66.1302" rx="18.0355" class="bubble" />
+    <rect width="500" height="66.1302" rx="18.0355" class="bubble" />
     <text x="15" y="27">I'm very interested in system design and DB optimization.</text>    
     <text x="15" y="50">writing blogs and meaningful projects</text>
   </g>
@@ -369,7 +369,7 @@
 
   <!-- Have a great... -->
   <g transform="translate(10, 240)" class="msg-5">
-    <rect width="365" height="42" rx="18.0355" class="bubble" />
+    <rect width="325" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">My project can be checked here.</text>
   </g>
   
