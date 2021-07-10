@@ -8,11 +8,6 @@ fs.readFile("template.svg", "utf-8", (error, data) => {
   }
   
   data = data.replace('{name}', 'uiandwe')
-//   data = data.replace('{degC}', degC)
-//   data = data.replace('{weatherEmoji}', emojis[icon])
-//   data = data.replace('{psTime}', psTime)
-//   data = data.replace('{todayDay}', todayDay)
-//   data = data.replace('{dayBubbleWidth}', dayBubbleWidths[todayDay])
 
   data = fs.writeFile("chat.svg", data, (err) => {
     if (err) {
