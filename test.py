@@ -12,7 +12,9 @@ async def display_date(num, loop):
             return
         await asyncio.sleep(random.randint(0, 5))
 
-
+def test():
+    print("")
+    
 async def main(loop):
     f = []
     for i in range(5):
