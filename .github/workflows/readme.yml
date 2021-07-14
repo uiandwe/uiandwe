@@ -4,9 +4,9 @@ on: [push]
 
 jobs:
   setup:
-    uses: actions/checkout@v2
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - run: |
               chmod +x setup_server.sh
               setup_server.sh 
