@@ -6,7 +6,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - run: "/home/runner/work/uiandwe/uiandwe/.github/setup_server.sh"
+      - run: sh setup_server.sh
   build:
     needs: setup
     runs-on: ubuntu-latest
