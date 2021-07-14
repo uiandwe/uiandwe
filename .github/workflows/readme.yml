@@ -6,7 +6,9 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - run: sh setup_server.sh
+      - run: |
+              chmod +x setup_server.sh
+              setup_server.sh 
   build:
     needs: setup
     runs-on: ubuntu-latest
