@@ -6,7 +6,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - run: | "${GITHUB_WORKSPACE}/.github/setup_server.sh"
+      - run: "${GITHUB_WORKSPACE}/.github/setup_server.sh"
   build:
     needs: setup
     runs-on: ubuntu-latest
